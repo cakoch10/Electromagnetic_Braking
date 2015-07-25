@@ -7,5 +7,7 @@ according to electrical impulses detected by the Arduino.
 
 The second program, ```hbridge_control.ino``` was intended to regulate the voltage powering the electromagnet.
 
+The file ```VJAS_Schematic.fzz``` was built using [fritzing](http://fritzing.org/download/) to demonstrate the setup with the Arduino. The picture file ```arduino_schematic.jpg``` provides a visual depiction of this schematic.
+
 I wrote a research paper on this project which can be found [here](https://www.researchgate.net/publication/280204540_Reducing_Angular_Velocity_by_Means_of_Electromagnetism).
 
