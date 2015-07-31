@@ -1,9 +1,8 @@
+//Program to regulate voltage passing through h bridge
 
 const int controlPin1=2;//connected to 7 on h bridge
 const int controlPin2=3;//connected to 2 on h bridge
 const int enable=9;//connected to 1 on h bridge
-
-
 
 void setup()
 {
@@ -12,10 +11,10 @@ void setup()
   pinMode(enable, OUTPUT);
   digitalWrite(controlPin1, HIGH);
   digitalWrite(controlPin2, LOW);
-
 }
 
 void loop()
 {
-  analogWrite(enable, 220);
+  analogWrite(enable, 220);//change value to change amount of voltage
+  //passing though h bridge. Range: 0-255
 }

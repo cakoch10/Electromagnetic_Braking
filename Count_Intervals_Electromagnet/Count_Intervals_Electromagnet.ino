@@ -1,4 +1,5 @@
-
+//program to count the miliseconds between each impulse
+//and output them to the monitor
 const int pin=2;
 
 unsigned long past=0;
